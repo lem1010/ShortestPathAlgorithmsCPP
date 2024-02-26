@@ -1,5 +1,4 @@
-# ShortestPathAlgorithmsCPP
-## Shortest Path Algorithms in C++
+# Shortest Path Algorithms in C++
 
 This project implements shortest path algorithms (SPAs) in C++ with a focus on performance, extensibility, and testing.
 
