@@ -12,26 +12,38 @@ To get started with the project, clone the repository to your local machine:
 
 `git clone https://github.com/lem1010/ShortestPathAlgorithmsCPP.git`
 
-Navigate to the project directory:
+Navigate to the `cmake-build-debug` directory inside the project:
 
-`cd ShortestPathAlgorithmsCPP`
+`cd ShortestPathAlgorithmsCPP/cmake-build-debug/`
 
 ### Running the Project
 
-The project comprises two main components:
+This project is configured to build with CMake. Follow these steps to compile and run the main application and testing framework:
 
-1. **Main Application (`main.cpp`)**: Provides a pre-configured environment to experiment with various SPAs. To run the main application, compile and execute `main.cpp`:
-
-    ```
-    g++ main.cpp -o mainApp
-    ./mainApp
-    ```
-
-2. **Testing Framework (`mainTest.cpp`)**: Facilitates conducting tests to evaluate the performance and correctness of SPAs. To run the testing framework, compile and execute `mainTest.cpp`:
+1. From within the `cmake-build-debug` directory, run CMake to configure the project and generate the makefile:
 
     ```
-    g++ mainTest.cpp -o testApp
-    ./testApp
+    cmake ..
+    ```
+
+2. Compile the project using the generated makefile with CMake:
+
+    ```
+    cmake --build .
+    ```
+
+    This will build all targets specified in your `CMakeLists.txt`, including the main application (`Main`) and the testing framework (`MainTest`).
+
+3. Run the main application:
+
+    ```
+    ./Main
+    ```
+
+4. Run the testing framework:
+
+    ```
+    ./MainTest
     ```
 
 ### Input Format
