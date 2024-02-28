@@ -10,11 +10,15 @@ Feel free to use this project to benchmark your SPAs through the provided testin
 
 To get started with the project, clone the repository to your local machine:
 
-`git clone https://github.com/lem1010/ShortestPathAlgorithmsCPP.git`
+
+    git clone https://github.com/lem1010/ShortestPathAlgorithmsCPP.git
+
 
 Navigate to the `cmake-build-debug` directory inside the project:
 
-`cd ShortestPathAlgorithmsCPP/cmake-build-debug/`
+
+    cd ShortestPathAlgorithmsCPP/cmake-build-debug/
+
 
 ### Running the Project
 
